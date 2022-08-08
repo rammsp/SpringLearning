@@ -1,0 +1,11 @@
+package com.prac.coach;
+
+import com.prac.fortune.FortuneService;
+
+public interface Coach {
+	
+	FortuneService fortuneService;
+	
+	public String getCoach();
+
+}

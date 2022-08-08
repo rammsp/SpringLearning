@@ -1,0 +1,13 @@
+package com.aug04.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+	
+	@RequestMapping
+	public String homePage() {
+		return "home";
+	}
+
+}

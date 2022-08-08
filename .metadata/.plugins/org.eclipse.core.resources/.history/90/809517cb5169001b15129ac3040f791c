@@ -1,0 +1,11 @@
+package com.sportcoach;
+
+public class TrackCoach implements Coach {
+
+	@Override
+	public String getDailyWorkOut() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

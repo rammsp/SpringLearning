@@ -1,0 +1,59 @@
+package com.ram.aop;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.AfterReturning;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+@Order(1)
+public class MyDemoLoggingAspect {
+	
+	@Pointcut("execution(public String addAccount(*))")
+	private void forAddAccount() {}
+	
+	@Pointcut("execution(public String add*(*))")
+	private void additionalOneToTest() {}
+	
+	@Pointcut("forAddAccount() && additionalOneToTest()")
+	private void forAddAccountWithAdditional() {}
+
+	//@Before("execution(public void addAccount())")
+	@Before("forAddAccountWithAdditional()")
+	public void beforeAddAccountAspectOne() {
+		System.out.println("===> ===> ===>  ===> Before Aspect Method ONE is being executed");
+	}
+	
+	@Before("forAddAccount() && additionalOneToTest()")
+	public void beforeAddAccountAspectTwo() {
+		System.out.println("===> ===> ===>  ===> Before Aspect Method TWO is being executed");
+	}
+	
+	@AfterReturning(pointcut = "execution(public String addAccount(*))", returning = "returnVal")
+	public void afterReturnAddAccount(JoinPoint joinPoint, String returnVal) {
+		System.out.println("===> ===> ===>  ===> After Returning Aspect Method TWO is being executed");
+		System.out.println("Signature: "+joinPoint.getSignature());
+		Object args[] = joinPoint.getArgs();
+		for (Object arg: args) {
+			System.out.println("Args: " + arg);
+		}
+		System.out.println("Return Val before returning "+ returnVal);
+	}
+	
+	@AfterThrowing(pointcut = "execution(public String addAccount(*))", returning = "returnVal")
+	public void afterThrowingAddAccount(JoinPoint joinPoint, String returnVal) {
+		System.out.println("===> ===> ===>  ===> After Returning Aspect Method TWO is being executed");
+		System.out.println("Signature: "+joinPoint.getSignature());
+		Object args[] = joinPoint.getArgs();
+		for (Object arg: args) {
+			System.out.println("Args: " + arg);
+		}
+		
+	}
+	
+}

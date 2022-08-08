@@ -1,0 +1,10 @@
+
+public class FootballCoach implements Coach {
+
+	@Override
+	public String getCoach() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

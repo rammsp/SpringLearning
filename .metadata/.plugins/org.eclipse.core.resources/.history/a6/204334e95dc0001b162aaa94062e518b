@@ -1,0 +1,13 @@
+package com.ram.aop;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountDao {
+	
+	public String addAccount(String text) {
+		System.out.println("===> ===> ===> addAccount Method is being executed");
+		return "rama";
+	}
+
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="myFortune" class="com.prac.fortune.GoodFortune"></bean>
+<bean id="myCoach" class="com.prac.coach.BaseBallCoach" scope="prototype" init-method="singleton" destroy-method="destroy">
+<!-- 	<property name="fortuneService" ref="myFortune"></property> -->
+<constructor-arg name="fortuneService" ref="myFortune"></constructor-arg>
+</bean>
+
+</beans>

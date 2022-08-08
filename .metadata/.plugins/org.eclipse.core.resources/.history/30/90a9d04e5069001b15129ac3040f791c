@@ -1,0 +1,9 @@
+package com.sportcoach;
+
+public class BaseBallCoach {
+	
+	public String getDailyWorkOut() {
+		return "";
+	}
+
+}

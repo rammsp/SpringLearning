@@ -1,0 +1,5 @@
+package com.aug04.controller;
+
+public class HomeController {
+
+}

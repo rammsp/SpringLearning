@@ -1,0 +1,12 @@
+package com.sportcoach;
+
+public class MyApp {
+
+	public static void main(String[] args) {
+		
+		Coach coach = new BaseBallCoach();
+		coach.getDailyWorkOut();
+
+	}
+
+}

@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Thu Aug 04 20:06:07 GST 2022
+org.eclipse.jst.jee.server\:/binary\:D\:\\Learning\\SpringLearning\\Workspace\\Aug04\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.3.jar=WEB-INF/lib/spring-web-5.3.3.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Learning\\SpringLearning\\Workspace\\Aug04\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.3-sources.jar=WEB-INF/lib/spring-web-5.3.3-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Learning\\SpringLearning\\Workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.3.jar=WEB-INF/lib/spring-web-5.3.3.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Learning\\SpringLearning\\Workspace\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.3-sources.jar=WEB-INF/lib/spring-web-5.3.3-sources.jar

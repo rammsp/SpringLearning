@@ -1,0 +1,24 @@
+package config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.prac.coach.BaseBallCoach;
+import com.prac.coach.Coach;
+import com.prac.coach.FootballCoach;
+
+@Configuration
+public class Config {
+	
+	@Bean
+	public Coach baseBallCoach() {
+		Coach coach = new BaseBallCoach();
+		return coach;
+	}
+
+	@Bean
+	public Coach footballCoach() {
+		Coach coach = new FootballCoach();
+		return coach;
+	}
+}

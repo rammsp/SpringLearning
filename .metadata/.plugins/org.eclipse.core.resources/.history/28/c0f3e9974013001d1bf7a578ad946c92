@@ -1,0 +1,9 @@
+
+public class FootballCoach implements Coach {
+
+	@Override
+	public String getCoach() {
+		return "Practice Football!!!";
+	}
+
+}

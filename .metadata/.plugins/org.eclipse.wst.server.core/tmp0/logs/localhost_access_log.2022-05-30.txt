@@ -1,0 +1,6 @@
+127.0.0.1 - - [30/May/2022:19:27:26 +0400] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/May/2022:19:27:45 +0400] "GET /CustomerRelationshipManagement/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/May/2022:19:27:48 +0400] "GET /CustomerRelationshipManagement/customer/list HTTP/1.1" 200 4043
+0:0:0:0:0:0:0:1 - - [30/May/2022:19:27:48 +0400] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [30/May/2022:19:40:08 +0400] "GET /CustomerRelationshipManagement/customer/showFormForUpdateCustomer?customerId=3 HTTP/1.1" 200 1332
+0:0:0:0:0:0:0:1 - - [30/May/2022:19:40:18 +0400] "GET /CustomerRelationshipManagement/customer/list HTTP/1.1" 200 4043

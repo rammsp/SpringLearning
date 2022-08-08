@@ -1,0 +1,16 @@
+package com.ram.aop;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class MainApp {
+
+	public static void main(String[] args) throws Exception {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+		AccountDao accountDao = context.getBean("accountDao", AccountDao.class);
+		String retVal = accountDao.addAccount("Rama");
+		System.out.println("Return Value After Returning " + retVal);
+		accountDao.addAccount("Moorthy");
+		context.close();
+	}
+
+}

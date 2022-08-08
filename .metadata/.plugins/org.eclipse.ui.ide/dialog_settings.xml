@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;&#x0D;&#x0A;&#x09;xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#x0D;&#x0A;&#x09;xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#x0D;&#x0A;&#x09;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#x0D;&#x0A;&#x09;&lt;groupId&gt;com.ram&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&lt;artifactId&gt;springsecurity.demo&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;&#x0D;&#x0A;&#x09;&lt;packaging&gt;war&lt;/packaging&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&lt;properties&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;springframework.version&gt;5.0.2.RELEASE&lt;/springframework.version&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;maven.compiler.source&gt;1.8&lt;/maven.compiler.source&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;maven.compiler.target&gt;1.8&lt;/maven.compiler.target&gt;&#x0D;&#x0A;&#x09;&lt;/properties&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&lt;dependencies&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;!-- Spring MVC support --&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;org.springframework&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;spring-webmvc&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;${springframework.version}&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-web --&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;org.springframework.security&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;spring-security-web&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;5.0.0.RELEASE&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-config --&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;org.springframework.security&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;spring-security-config&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;5.0.0.RELEASE&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&lt;!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs --&gt;&#x0D;&#x0A;&lt;dependency&gt;&#x0D;&#x0A;    &lt;groupId&gt;org.springframework.security&lt;/groupId&gt;&#x0D;&#x0A;    &lt;artifactId&gt;spring-security-taglibs&lt;/artifactId&gt;&#x0D;&#x0A;    &lt;version&gt;5.0.0.RELEASE&lt;/version&gt;&#x0D;&#x0A;&lt;/dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;!-- Servlet, JSP and JSTL support --&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;3.1.0&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;javax.servlet.jsp&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;javax.servlet.jsp-api&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;2.3.1&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;javax.servlet&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;jstl&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;1.2&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;dependency&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;groupId&gt;junit&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;artifactId&gt;junit&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;version&gt;3.8.1&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;scope&gt;test&lt;/scope&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/dependency&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&lt;/dependencies&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&lt;!-- TO DO: Add support for Maven WAR Plugin --&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&lt;build&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;finalName&gt;spring-security-demo&lt;/finalName&gt;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;&#x09;&lt;pluginManagement&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;plugins&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;plugin&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&lt;!-- Add Maven coordinates (GAV) for: maven-war-plugin --&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&lt;artifactId&gt;maven-war-plugin&lt;/artifactId&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&lt;version&gt;3.2.0&lt;/version&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;/plugin&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;/plugins&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/pluginManagement&gt;&#x0D;&#x0A;&#x09;&lt;/build&gt;&#x0D;&#x0A;&#x0D;&#x0A;&lt;/project&gt;"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="98"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="714"/>
+			<item value="285"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="671"/>
+			<item key="DIALOG_Y_ORIGIN" value="188"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Learning\SpringLearning\Workspace\spring-aop-demo"/>
+			<item value="D:\Learning\SpringLearning\Workspace\CustomerRelationshipManagementService"/>
+			<item value="D:\Learning\SpringLearning\Workspace\CustomerRelationshipManagement"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-many-to-many"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-one-to-many-bi-lazy-eager"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-one-to-many-bi-not-delete"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-one-to-one-bi-not-delete"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-one-to-one-uni"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-one-to-one-bi"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-one-to-many-uni-delete"/>
+			<item value="D:\Learning\SpringLearning\Workspace\hibernate-tutorial"/>
+			<item value="D:\Learning\SpringLearning\Workspace\spring-mvc-demo-old"/>
+			<item value="D:\Learning\SpringLearning\Workspace\spring-mvc-demo"/>
+			<item value="D:\Learning\SpringLearning\Workspace\spring-practice-two"/>
+			<item value="D:\SpringMicroservicesLearning\Workspace\apigateway"/>
+			<item value="D:\SpringMicroservicesLearning\Workspace\namingserver"/>
+			<item value="D:\SpringMicroservicesLearning\Workspace\currencyconversionservice"/>
+			<item value="D:\SpringMicroservicesLearning\Workspace\currencyexchangeservice"/>
+			<item value="D:\SpringMicroservicesLearning\Workspace\springcloudconfigserver"/>
+			<item value="D:\SpringMicroservicesLearning\Workspace\limitsservice"/>
+			<item value="D:\SpringLearning\Workspace\springbootemployee"/>
+			<item value="D:\SpringLearning\Workspace\springbootdemo"/>
+			<item value="D:\SpringLearning\Workspace\spring-crm-rest-demo"/>
+			<item value="D:\SpringLearning\Workspace\spring-security-demo"/>
+			<item value="D:\SpringLearning\Workspace\spring-mvc-demo"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

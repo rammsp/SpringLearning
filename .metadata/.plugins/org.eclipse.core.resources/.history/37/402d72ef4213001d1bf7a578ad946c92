@@ -1,0 +1,14 @@
+package com.prac.coach;
+
+import com.prac.fortune.FortuneService;
+
+public class FootballCoach implements Coach {
+	
+	FortuneService fortuneService;
+
+	@Override
+	public String getCoach() {
+		return "Practice Football!!! " + "/n" + fortuneService.getFortune();
+	}
+
+}
