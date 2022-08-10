@@ -1,9 +1,0 @@
-
-public class BaseBallCoach implements Coach {
-
-	@Override
-	public String getCoach() {
-		return "Practice Baseball!";
-	}
-
-}
